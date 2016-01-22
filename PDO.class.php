@@ -14,13 +14,14 @@
  
 class DB
 {
-  private $Host;
-  private $DBName;
+	private $Host;
+	private $DBName;
 	private $DBUser;
 	private $DBPassword;
 	private $DBcharset = 'utf8';
-  
-  public function __construct($Host, $DBName, $DBUser, $DBPassword) {
-  }
+	
+	public function __construct($Host, $DBName, $DBUser, $DBPassword) {
+		....
+	}
 }
- 
+
