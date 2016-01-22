@@ -7,6 +7,6 @@ define('DBHost', '127.0.0.1');
 define('DBName', 'Database');
 define('DBUser', 'root');
 define('DBPassword', '');
-$DB = new Db(DBHost, DBName, DBUser, DBPassword);
+$DB = new DB(DBHost, DBName, DBUser, DBPassword);
 ?>
 ```
