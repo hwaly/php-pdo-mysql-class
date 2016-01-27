@@ -21,7 +21,7 @@ class DB
 	private $DBcharset = 'utf8';
 	
 	public function __construct($Host, $DBName, $DBUser, $DBPassword) {
-		....
+		.......
 	}
 }
 
